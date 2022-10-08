@@ -17,4 +17,4 @@ Website ini di bangun menggunakan :
 - [Chrome](https://www.google.com/intl/id_id/chrome/)
 
 ## Demo Apps : 
-![Clip Assignment 3 (1)](https://www.webmobilefirst.com/en/screencasts/DaDhI5JfGE/)
+![](https://www.webmobilefirst.com/en/screencasts/DaDhI5JfGE/)
