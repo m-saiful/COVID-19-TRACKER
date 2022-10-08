@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(155, 41, 221);
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Area form input */
+.form-input{
+  background-color: whitesmoke;
+  border-radius: 2.6em;
+  border: none;
+  align-self: center;
+  font-size: 1rem;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.placeholder:focus::placeholder {
+  color: transparent;
+}
+
+
+/* Area button */
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 2.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+.third {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+/* Area Content */
+.container {
+    width: 50%;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: linear-gradient(150deg, #f731db, #4600f1 100%);
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 16px 16px rgba(138, 5, 172, 0.57);
+-webkit-box-shadow: 0px 0px 16px 16px rgba(54, 11, 155, 0.57);
+-moz-box-shadow: 0px 0px 16px 16px rgba(0,0,0,0.57);
+}
+
+.data-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color:blue;
+    width: 10vw;
+    height: 10vw;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card p:nth-child(3){
+    color:white;
+    margin: 0;
+}
+
+.card p:nth-child(2) {
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media only screen and (max-width: 1117px) {
+  .responsive{
+    width: 50vw;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card{
+    height: 20vh;
+    text-align: center;
+  }
+}
